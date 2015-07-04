@@ -28,7 +28,7 @@ declare @local1 int
 set @local1 = @@identity
 		
 Insert Into Local (Nome, [Key], Endereco, Latitude, Longitude, Status_id, Cliente_id, UltimoiLive, UltimoInicializacao)
-		values ('Fabrica de Software', '0011', 'Av Gomes de Carvalho, 100, São Paulo, SP', '-23.601699', '-46.675064', @ativo, @cliente, GetDate(), GetDate()-10)
+		values ('Fabrica de Software', '0011', 'Av Gomes de Carvalho, 54, São Paulo, SP', '-23.601699', '-46.675064', @ativo, @cliente, GetDate(), GetDate()-10)
 declare @local2 int
 set @local2 = @@identity
 		
@@ -48,7 +48,7 @@ set @local4 = @@identity
 --http://www.geraldfinzi.org/images/finzi_map_icon_people.png
 
 Insert into Colaborador (Documento, Nome, Email, Foto, [Key], UltimoAcesso, Status_Id, Cliente_Id )
-	values ('2633115454', 'Sergio de Miranda e Castro Mokshin', '','Sergio.jpg','chave', GetDate(), @ativo, @cliente)
+	values ('2633115454', 'Sergio de Miranda', '','Sergio.jpg','chave', GetDate(), @ativo, @cliente)
 declare @sergio int
 set @sergio = @@identity
 
