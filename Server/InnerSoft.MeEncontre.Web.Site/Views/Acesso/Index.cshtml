@@ -1,0 +1,62 @@
+﻿@model IEnumerable<InnerSoft.MeEncontre.Web.Site.ViewModel.AcessoViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_InternalPartial.cshtml";
+}
+<div class="span12">
+            <div class="">
+                <ul class="breadcrumb">
+                  <li><a href="#">Home</a> <span class="divider">/</span></li>
+                  <li><a href="#">Relatórios</a> <span class="divider">/</span></li>
+                  <li class="active">Acesso</li>
+                </ul>
+            </div>  
+        <hr>
+    <table class="table">
+        <tr>       
+            <th>
+                @Html.DisplayNameFor(model => model.LocalViewModel.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ColaboradorViewModel.Nome)
+            </th>      
+            <th>
+                @Html.DisplayNameFor(model => model.ColaboradorViewModel.Key)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>            
+			<th>
+                @Html.DisplayNameFor(model => model.MovimentoFormatado)
+            </th>                        
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocalViewModel.Nome)
+            </td>
+            <td valign="middle">
+                @Html.DisplayFor(modelItem => item.ColaboradorViewModel.Nome)
+            </td>
+            <td valign="middle">
+                @Html.DisplayFor(modelItem => item.ColaboradorViewModel.Key)
+            </td>        
+            <td valign="middle">
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>                            
+			<td valign="middle">
+                @if (item.Movimento == "E")
+                {
+                    <span class="label label-success">&nbsp;Entrada&nbsp;</span>
+                }
+                else
+                {
+                    <span class="label">&nbsp;&nbsp;&nbsp;Saída&nbsp;&nbsp;&nbsp;</span>
+                }
+                
+            </td>                                        
+        </tr>
+    }
+    </table>    
+</div>

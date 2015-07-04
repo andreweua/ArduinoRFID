@@ -1,0 +1,67 @@
+﻿@model IEnumerable<InnerSoft.MeEncontre.Web.Site.ViewModel.LocalViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_InternalPartial.cshtml";
+}
+
+
+<div class="span12">
+            <div class="">
+                <ul class="breadcrumb">
+                  <li><a href="#">Home</a> <span class="divider">/</span></li>
+                  <li><a href="#">Cadastro</a> <span class="divider">/</span></li>
+                  <li class="active">Locais</li>
+                </ul>
+            </div>  
+        <hr>
+    <table class="table">
+        <tr>       
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+      
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Key)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UltimoiLive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UltimoInicializacao)
+            </th>
+            <th>
+                Ações
+            </th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td valign="middle">
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>        
+            <td valign="middle">
+                @Html.DisplayFor(modelItem => item.Key)
+            </td>        
+            <td valign="middle">
+                @Html.DisplayFor(modelItem => item.UltimoiLive)
+            </td>        
+            <td valign="middle">
+                @Html.DisplayFor(modelItem => item.UltimoInicializacao)
+            </td>        
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+    </table>
+    <div class="tool-actions">
+        @Html.ActionLink("Incluir Local", "Create", "", new { @class = "btn btn-primary" })
+    </div>
+</div>

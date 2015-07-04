@@ -1,0 +1,5 @@
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.Domain\bin\Debug\InnerSoft.MeEncontre.Domain.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.Domain\bin\Debug\InnerSoft.MeEncontre.Domain.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.Domain\obj\Debug\InnerSoft.MeEncontre.Domain.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.Domain\obj\Debug\InnerSoft.MeEncontre.Domain.pdb

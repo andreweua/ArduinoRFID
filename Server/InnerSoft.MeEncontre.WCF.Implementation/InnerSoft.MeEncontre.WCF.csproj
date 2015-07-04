@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InnerSoft.MeEncontre.WCF.Implementation</RootNamespace>
+    <AssemblyName>InnerSoft.MeEncontre.WCF.Implementation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\IRegistrarAcessoService.cs" />
+    <Compile Include="Implementation\RegistrarAcessoService.cs" />
+    <Compile Include="Messages\RegistraAcessoCoordenadaRequest.cs" />
+    <Compile Include="Messages\RegistraAcessoCoordenadaResponse.cs" />
+    <Compile Include="Messages\RegistraAcessoLocalRequest.cs" />
+    <Compile Include="Messages\RegistraAcessoLocalResponse.cs" />
+    <Compile Include="Messages\ResponseBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\InnerSoft.MeEncontre.Application\InnerSoft.MeEncontre.Application.csproj">
+      <Project>{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A}</Project>
+      <Name>InnerSoft.MeEncontre.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InnerSoft.MeEncontre.Domain\InnerSoft.MeEncontre.Domain.csproj">
+      <Project>{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF}</Project>
+      <Name>InnerSoft.MeEncontre.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InnerSoft.MeEncontre.InfraStructure\InnerSoft.MeEncontre.InfraStructure.csproj">
+      <Project>{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0}</Project>
+      <Name>InnerSoft.MeEncontre.InfraStructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

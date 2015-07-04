@@ -1,0 +1,13 @@
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.WCF.Implementation.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.WCF.Implementation.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.Application.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.Domain.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.InfraStructure.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\EntityFramework.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.Application.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.Domain.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\InnerSoft.MeEncontre.InfraStructure.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\bin\Debug\EntityFramework.xml
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\obj\Debug\InnerSoft.MeEncontre.WCF.Implementation.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Implementation\obj\Debug\InnerSoft.MeEncontre.WCF.Implementation.pdb

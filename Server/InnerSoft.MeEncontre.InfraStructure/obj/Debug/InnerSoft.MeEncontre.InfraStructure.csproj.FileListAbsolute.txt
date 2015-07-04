@@ -1,0 +1,10 @@
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\bin\Debug\InnerSoft.MeEncontre.InfraStructure.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\bin\Debug\InnerSoft.MeEncontre.InfraStructure.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\obj\Debug\InnerSoft.MeEncontre.InfraStructure.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\obj\Debug\InnerSoft.MeEncontre.InfraStructure.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\bin\Debug\InnerSoft.MeEncontre.InfraStructure.dll.config
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\bin\Debug\EntityFramework.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\bin\Debug\InnerSoft.MeEncontre.Domain.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\bin\Debug\InnerSoft.MeEncontre.Domain.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.InfraStructure\bin\Debug\EntityFramework.xml

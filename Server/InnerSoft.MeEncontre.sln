@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.Domain", "InnerSoft.MeEncontre.Domain\InnerSoft.MeEncontre.Domain.csproj", "{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.InfraStructure", "InnerSoft.MeEncontre.InfraStructure\InnerSoft.MeEncontre.InfraStructure.csproj", "{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.Web.Site", "InnerSoft.MeEncontre.Web.Site\InnerSoft.MeEncontre.Web.Site.csproj", "{AFAC4D7D-D837-4173-9BB3-D686651DD81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.Web.Site.Tests", "InnerSoft.MeEncontre.Web.Site.Tests\InnerSoft.MeEncontre.Web.Site.Tests.csproj", "{650131CA-C3EC-419C-BFFB-F0E2E6E86F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.Application", "InnerSoft.MeEncontre.Application\InnerSoft.MeEncontre.Application.csproj", "{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.Web.API", "InnerSoft.MeEncontre.Web.API\InnerSoft.MeEncontre.Web.API.csproj", "{A847FC06-CF1D-4F87-AA9C-D2BCC1522C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.Web.API.Tests", "InnerSoft.MeEncontre.Web.API.Tests\InnerSoft.MeEncontre.Web.API.Tests.csproj", "{F144E67B-232D-4097-9E17-EE5A5C6EB8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.WCF", "InnerSoft.MeEncontre.WCF.Implementation\InnerSoft.MeEncontre.WCF.csproj", "{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "InnerSoft.MeEncontre.WCF.Host", "InnerSoft.MeEncontre.WCF.Host", "{6A1CEE45-24C2-449D-B358-9DBE641302EB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21}|InnerSoft.MeEncontre.WCF.Implementation.dll;{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A}|InnerSoft.MeEncontre.Application.dll;{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF}|InnerSoft.MeEncontre.Domain.dll;{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0}|InnerSoft.MeEncontre.InfraStructure.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/InnerSoft.MeEncontre.WCF.Host"
+		Debug.AspNetCompiler.PhysicalPath = "InnerSoft.MeEncontre.WCF.Host\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\InnerSoft.MeEncontre.WCF.Host\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/InnerSoft.MeEncontre.WCF.Host"
+		Release.AspNetCompiler.PhysicalPath = "InnerSoft.MeEncontre.WCF.Host\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\InnerSoft.MeEncontre.WCF.Host\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3086"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerSoft.MeEncontre.WCF.Tests", "InnerSoft.MeEncontre.WCF.Tests\InnerSoft.MeEncontre.WCF.Tests.csproj", "{E69488EC-662B-47CF-B93C-39AFD0CEF8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{AB9C1ADB-605F-49C5-8761-296D13F2804D}"
+	ProjectSection(SolutionItems) = preProject
+		InnerSoft.MeEncontre.vsmdi = InnerSoft.MeEncontre.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{29D392D0-C1D4-4F81-A430-BBCC3E2E70CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Site", "2. Site", "{14908768-6777-4526-B92F-0704145DB5C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Web API", "3. Web API", "{58D5EE95-09DC-496A-AFE7-42436DE597EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. WCF API", "4. WCF API", "{5221B3E0-A451-4D43-B634-15FB3CAAA9DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{5AC5FBE0-0E83-45A6-ADCE-4F62CD9E4F45}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = InnerSoft.MeEncontre.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAC4D7D-D837-4173-9BB3-D686651DD81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAC4D7D-D837-4173-9BB3-D686651DD81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAC4D7D-D837-4173-9BB3-D686651DD81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAC4D7D-D837-4173-9BB3-D686651DD81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650131CA-C3EC-419C-BFFB-F0E2E6E86F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650131CA-C3EC-419C-BFFB-F0E2E6E86F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650131CA-C3EC-419C-BFFB-F0E2E6E86F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650131CA-C3EC-419C-BFFB-F0E2E6E86F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A847FC06-CF1D-4F87-AA9C-D2BCC1522C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A847FC06-CF1D-4F87-AA9C-D2BCC1522C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A847FC06-CF1D-4F87-AA9C-D2BCC1522C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A847FC06-CF1D-4F87-AA9C-D2BCC1522C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F144E67B-232D-4097-9E17-EE5A5C6EB8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F144E67B-232D-4097-9E17-EE5A5C6EB8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F144E67B-232D-4097-9E17-EE5A5C6EB8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F144E67B-232D-4097-9E17-EE5A5C6EB8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1CEE45-24C2-449D-B358-9DBE641302EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1CEE45-24C2-449D-B358-9DBE641302EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1CEE45-24C2-449D-B358-9DBE641302EB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1CEE45-24C2-449D-B358-9DBE641302EB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E69488EC-662B-47CF-B93C-39AFD0CEF8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69488EC-662B-47CF-B93C-39AFD0CEF8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69488EC-662B-47CF-B93C-39AFD0CEF8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69488EC-662B-47CF-B93C-39AFD0CEF8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5B2ECBB-9709-4AE2-AFD0-FA9E44581C8A} = {29D392D0-C1D4-4F81-A430-BBCC3E2E70CB}
+		{27CB0316-8C98-4BA5-B680-7F6A0D7BAEDF} = {29D392D0-C1D4-4F81-A430-BBCC3E2E70CB}
+		{2F45A8B8-A17C-4C51-8EBB-93BA521EA6D0} = {29D392D0-C1D4-4F81-A430-BBCC3E2E70CB}
+		{AFAC4D7D-D837-4173-9BB3-D686651DD81A} = {14908768-6777-4526-B92F-0704145DB5C8}
+		{A847FC06-CF1D-4F87-AA9C-D2BCC1522C19} = {58D5EE95-09DC-496A-AFE7-42436DE597EE}
+		{4759DBFE-77AB-4C8C-B32A-CD1C8A827E21} = {5221B3E0-A451-4D43-B634-15FB3CAAA9DD}
+		{6A1CEE45-24C2-449D-B358-9DBE641302EB} = {5221B3E0-A451-4D43-B634-15FB3CAAA9DD}
+		{E69488EC-662B-47CF-B93C-39AFD0CEF8D0} = {5AC5FBE0-0E83-45A6-ADCE-4F62CD9E4F45}
+		{F144E67B-232D-4097-9E17-EE5A5C6EB8C6} = {5AC5FBE0-0E83-45A6-ADCE-4F62CD9E4F45}
+		{650131CA-C3EC-419C-BFFB-F0E2E6E86F16} = {5AC5FBE0-0E83-45A6-ADCE-4F62CD9E4F45}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

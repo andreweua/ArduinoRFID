@@ -1,0 +1,16 @@
+
+http://localhost:21842/api/acesso/INNER/0001/chave
+
+
+
+Escritorio Matriz	  0001
+Fabrica de Software 0011
+Centro de Apoio - Help desk	 0111
+Escritorio Cliente	 1111	 
+
+
+Sergio de Miranda e Castro Mokshin	 chave
+João José Silva	 chave1
+Maria Lucia Silva	 chave2
+Luciana Maria Joaquina	 chave3	
+Sheila Silva	 chave4	

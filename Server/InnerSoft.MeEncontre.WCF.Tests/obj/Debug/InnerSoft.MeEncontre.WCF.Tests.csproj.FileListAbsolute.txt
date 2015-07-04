@@ -1,0 +1,5 @@
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Tests\bin\Debug\InnerSoft.MeEncontre.WCF.Tests.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Tests\bin\Debug\InnerSoft.MeEncontre.WCF.Tests.pdb
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Tests\obj\Debug\InnerSoft.MeEncontre.WCF.Tests.dll
+C:\Users\sergio\Dropbox\Projetos\MeEncontre\Server\InnerSoft.MeEncontre.WCF.Tests\obj\Debug\InnerSoft.MeEncontre.WCF.Tests.pdb

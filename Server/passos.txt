@@ -1,0 +1,15 @@
+new MVC4 project
+
+Install-Package EntityFramework
+install-package unity
+Install-Package Unity.AutoRegister
+Install-Package AutoMapper
+
+
+
+
+
+Install-Package Twitter.Bootstrap
+Atualização style FAceBook
+
+
